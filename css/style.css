@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Hind:300);
+
+body {
+	font-family: 'Hind';
+}
+#city {
+	font-family: 'Arimo', sans-serif;
+}
+
+.button {
+	background-color: #FFF;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	border: 2px solid #999;
+	margin: 0 10px;
+	color: #999;
+	font-weight: 700;
+}
+
+.button:focus {
+	outline: 0;
+}
+
+.buttons{
+	text-align: center;
+}
+
+.weatherwrapper {
+	margin: auto;
+	width: 200px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.weather, .weathericon {
+	text-align: center;
+	display: inline-block;
+}
+
+.weather, .temperature, .wind {
+	font-size: 1.5em;
+	color: #999;
+	text-align: center;
+	margin-top: .5em;
+}
+
+.weathericon {
+	background-color: #DDD;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+	border: #FF0055 2px solid;
+	border-radius: 50%;
+}
+
+/*Template CSS*/
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+
+body {
+	margin: 0;
+}
+
+.header {
+	background-color: #D4FF33;
+	width: 100%;
+	color: #97BA14;
+	float: left;
+	display: hidden;
+}
+
+.header div {
+	padding: 5px 10px;
+}
+
+.header a {
+	color: #FF0055;
+	text-decoration: none;
+}
+
+.header a:hover {
+	color: #B2003B;
+}
+
+.header i {
+	font-size: 1.2em;
+	padding: 4px 6px 1px 0;
+}
+
+.header-wrapper {
+	height: 5em;
+	float: left;
+	width: 100%;
+}
+
+.left {
+	float: left;
+	display: inline-block;
+}
+
+.right {
+	float: right;
+	display: inline-block;
+}
+
+.title {
+	font-size: 3em;
+	text-align: center;
+	padding-top: 1em;
+}
